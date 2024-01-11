@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [DOMA Arquitetura]
 
+## [0.0.2] - 2024-01-10
+
+### Added
+
+- Secao Sobre e secao contato
+
 ## [0.0.1] - 2024-01-10
 
 ### Added

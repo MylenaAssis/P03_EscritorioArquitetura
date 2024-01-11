@@ -3,24 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOMA</title>
+    <title>DOMO</title>
     <link rel="stylesheet" href="./main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>DOMA Arquitetura</h1>
+            <h1>DOMO Arquitetura</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="#projects">Projetos</a>
-                    </li>
-                    <li>
-                        <a href="#about">Sobre nós</a>
+                        <a href="#about-correct">Sobre nós</a>
                     </li>
                     <li>
                         <a href="#contact">Contato</a>
@@ -28,13 +25,112 @@
                 </ul>
             </nav>
         </div>
-        
     </header>
     <main>
-
+        <section id="about">
+            <div class="container">
+                <div class="image-big">
+                    <img src="./images/equipe.jpg" alt="Imagem Arquitetura">
+                    <img src="./images/jason-goodman-ZJlfUi5rTDU-unsplash.jpg" alt="Homem em escritorio">
+                    <img src="./images/arquiteta.jpg" alt="Arquiteta em escritorio">
+                    <img src="./images/arquiteta2.jpg" alt="Mulheres desenhando">
+                </div>
+            </div>
+            <div id="about-correct" class="quote">
+                <blockquote>"Citação poetica longa extensa de arquitetos sobre concepção arquitetonica vida e arte filosofia etc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sequi, ipsa hic quis qui similique consequatur incidunt ad! - Arquiteto Renomado"</blockquote>
+            </div>
+            <div class="sub-header">
+                <div class="container">
+                    <h2>Sobre nós</h2>
+                    <nav>
+                        <ul class="social-links">
+                            <li>
+                                <a href="#" title="Siga-nos no instagram">
+                                    <img src="./images/instagram.png" alt="Logo Instagram" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Siga-nos no facebook">
+                                    <img src="./images/facebook.png" alt="Logo Facebook" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Se increva no youtube">
+                                    <img src="./images/youtube.png" alt="Logo Youtube" />
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="container">
+                <div class="about-text">
+                    <article>
+                        <div class="image">
+                            <img src="./images/COLABORADORES (1).jpg" alt="Mulher">
+                        </div>
+                        <div class="colaborador-texto">
+                            <h3>Arquiteta 1</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas amet laborum eligendi accusamus quod vel consequatur itaque perspiciatis aspernatur?</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="image">
+                            <img src="./images/COLABORADORES (2).jpg" alt="Mulher">
+                        </div>
+                        <div class="colaborador-texto">
+                            <h3>Arquiteta 2</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas amet laborum eligendi accusamus quod vel consequatur itaque perspiciatis aspernatur?</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="image">
+                            <img src="./images/COLABORADORES (3).jpg" alt="Mulher">
+                        </div>
+                        <div class="colaborador-texto">
+                            <h3>Arquiteta 3</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas amet laborum eligendi accusamus quod vel consequatur itaque perspiciatis aspernatur?</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="container">
+                <div class="policy">
+                    <div id="policy-text1">
+                        <h3>Nossas premissas</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia odit totam voluptatibus nihil? Earum officiis minima dolore sapiente rerum nemo architecto consectetur, vitae veritatis tempore, dolor possimus magni qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia odit totam voluptatibus nihil? Earum officiis minima dolore sapiente rerum nemo architecto consectetur, vitae veritatis tempore, dolor possimus magni qui?</p>
+                    </div>
+                    <div id="policy-text2">
+                        <h3>Impacto Social</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia odit totam voluptatibus nihil? Earum officiis minima dolore sapiente rerum nemo architecto consectetur, vitae veritatis tempore, dolor possimus magni qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia odit totam voluptatibus nihil? Earum officiis minima dolore sapiente rerum nemo architecto consectetur, vitae veritatis tempore, dolor possimus magni qui?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="sub-header">
+                <div class="container">
+                    <h2>Fale conosco</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required />
+                        <input type="email" placeholder="Seu email" required />
+                        <input type="tel" placeholder="Seu telefone (Opcional)" />
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <img src="./images/arquitetura.jpg" alt="Fotografia arquitetonica">
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-
+        &copy; Domo Arquitetura - Todos os direitos reservados - 2024
     </footer>
 </body>
 </html>
